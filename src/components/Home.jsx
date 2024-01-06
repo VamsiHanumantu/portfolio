@@ -12,10 +12,10 @@ const Home = () => {
          <p  className='text-[#8892be] py-4 max-w-[700px]'>I am full-stack developer specializing in building exceptional digital experiences. Currently, I am focused on building responsive full stack web applications</p>
          <div>
          <Link to='work' smooth={true} duration={500}> <button className='text-white border-2 group px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'> View Work <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3' /></span></button></Link>
-
+{/* 
          <a className='w-full flex justify-between items-center text-gray-300' href="resume.pdf" download="resume.pdf">
                <button className='text-white border-2 group px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>My Resume</button>
-            </a>
+            </a> */}
          </div>
          
        </div>
