@@ -65,12 +65,12 @@ const Navbar = () => {
       <div className='hidden fixed lg:flex flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-blue-600 duration-300'>
-            <a className='w-full flex justify-between items-center text-gray-300' href="">
+            <a className='w-full flex justify-between items-center text-gray-300' href="https://www.linkedin.com/in/vamsihanumantu/">
                 LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#333333] duration-300'>
-            <a className='w-full flex justify-between items-center text-gray-300' href="">
+            <a className='w-full flex justify-between items-center text-gray-300' href="https://github.com/VamsiHanumantu">
                 Github <FaGithub size={30} />
             </a>
           </li>
