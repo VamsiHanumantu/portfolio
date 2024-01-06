@@ -1,5 +1,4 @@
 import projects from '../data/projects.json'
-import stepcone from '../data/projectImg/stepcone.png'
 import '../index.css'
 
 const Work = () => {
@@ -16,10 +15,9 @@ const Work = () => {
             {
                 projects.map((project,id)=>{
                     console.log(project.imgsrc)
-                    let img = project.imgsrc;
                     return (
                         <div key={id}
-                        style={{backgroundImage:`url(${img})`}}
+                        style={{backgroundImage:`url(${project.imgsrc})`}}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                            
                             {/* hover effects */}
