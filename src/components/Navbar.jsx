@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex  justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h1 className=' text-pink-600 text-3xl font-bold'>Vamsi Hanumantu</h1>
+        <h1 className=' text-[#EA5455] text-3xl  font-bold'>Portfolio</h1>
       </div>
 
       {/* menu */}
@@ -65,12 +65,12 @@ const Navbar = () => {
       <div className='hidden fixed lg:flex flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-blue-600 duration-300'>
-            <a className='w-full flex justify-between items-center text-gray-300' href="https://www.linkedin.com/in/vamsihanumantu/">
+            <a className='w-full flex justify-between items-center text-gray-300' href="">
                 LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#333333] duration-300'>
-            <a className='w-full flex justify-between items-center text-gray-300' href="https://github.com/VamsiHanumantu">
+            <a className='w-full flex justify-between items-center text-gray-300' href="">
                 Github <FaGithub size={30} />
             </a>
           </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300'>
-            <a className='w-full flex justify-between items-center text-gray-300' href="resume.pdf" download="resume.pdf">
+            <a className='w-full flex justify-between items-center text-gray-300' href="">
                Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
