@@ -1,5 +1,4 @@
-import stepcone from '../assets/stepcone.png'
-import weather from '../assets/weather.png'
+import projects from '../data/projects.json'
 import '../index.css'
 
 const Work = () => {
@@ -12,44 +11,35 @@ const Work = () => {
         </div>
 
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <div 
-            style={{backgroundImage:`url(${stepcone})`}}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-               
-                {/* hover effects */}
-                <div className='opacity-0 group-hover:opacity-100' >
-                    <span className='text-2xl text-white font-bold tracking-wider'>
-                        College Fest Website
-                    </span>
-                    <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Demo</button>
-                        </a>
-                        <a href="">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Code</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div 
-            style={{backgroundImage:`url(${weather})`}}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-               
-                {/* hover effects */}
-                <div className='opacity-0 group-hover:opacity-100' >
-                    <span className='text-2xl text-white font-bold tracking-wider'>
-                        Weather-React
-                    </span>
-                    <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Demo</button>
-                        </a>
-                        <a href="">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Code</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+
+            {
+                projects.map((project,id)=>{
+                    console.log(project.imgsrc)
+                    return (
+                        <div key={id}
+                        style={{backgroundImage:`url(${project.imgsrc})`}}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                           
+                            {/* hover effects */}
+                            <div className='opacity-0 group-hover:opacity-100' >
+                                <span className='text-2xl text-white font-bold tracking-wider text-center'>
+                                    {project.title}
+                                </span>
+                                <div className='pt-8 text-center'>
+                                    <a href={project.demo}>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Demo</button>
+                                    </a>
+                                    <a href={project.source}>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Code</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+           
+      
         </div>
        </div>
     </div>
