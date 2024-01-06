@@ -1,19 +1,19 @@
 [
     {
         "title":"Fest Website",
-        "imgsrc":"/data/projectimg/stepcone.png",
+        "imgsrc":"../data/projectimg/stepcone.png",
         "demo":"https://gmrit.edu.in/stepcone/",
         "source":"https://gmrit.edu.in/stepcone/"
     },
     {
         "title":"Weather Application",
-        "imgsrc":"/data/projectimg/weather.png",
+        "imgsrc":"../data/projectimg/weather.png",
         "demo":"https://github.com/VamsiHanumantu/weather-APP",
         "source":"https://github.com/VamsiHanumantu/weather-APP"
     },
     {
         "title":"Food Website",
-        "imgsrc":"/data/projectimg/food.png",
+        "imgsrc":"../data/projectimg/food.png",
         "demo":"https://github.com/VamsiHanumantu/Food-App",
         "source":"https://github.com/VamsiHanumantu/Food-App"
     }
