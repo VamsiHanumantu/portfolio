@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div>
                 <p className=" text-justify">
-             I am eager to embark on a rewarding career as a Full Stack Developer, and I bring a solid foundation in web development coupled with hands-on experience. Proficient in front-end technologies such as HTML, CSS, and React, I specialize in creating responsive and interactive user interfaces that enhance the overall user experience. On the server side, I am adept at utilizing Node.js, Express, and MongoDB for efficient back-end development. My academic journey has been enriched by engaging in diverse projects which showcase my ability to conceptualize, design, and implement web applications. Committed to continuous learning, I stay updated on the latest industry trends and technologies, ensuring that my skills remain aligned with the dynamic landscape of web development. I am excited about the prospect of contributing my technical skills and creativity to a dynamic development team, fostering innovation, and making meaningful contributions to the field.</p>
+                I am a passionate Full Stack Developer proficient in front-end technologies like HTML, CSS, JAvascript and React. Leveraging my skills in Node.js, Express, and MongoDB on the server side. My adaptability, collaborative mindset, and problem-solving skills make me an asset to any development team. Eager to contribute to cutting-edge projects, I am excited about the opportunity to innovate and create impactful web applications.</p>
             </div>
 
            </div>
