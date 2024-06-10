@@ -16,7 +16,16 @@ const About = () => {
             </div>
             <div>
                 <p className=" text-justify">
-                I am a passionate Full Stack Developer proficient in front-end technologies like HTML, CSS, JAvascript and React. Leveraging my skills in Node.js, Express, and MongoDB on the server side. My adaptability, collaborative mindset, and problem-solving skills make me an asset to any development team. Eager to contribute to cutting-edge projects, I am excited about the opportunity to innovate and create impactful web applications.</p>
+                Welcome to my portfolio! I am a versatile software engineer with expertise in a diverse range of programming languages, web technologies, and frameworks. With a strong foundation in C, C++, Java, and Python, I possess the agility to tackle any programming challenge that comes my way. My proficiency extends to web development, where I craft elegant and responsive user interfaces using HTML, CSS, and JavaScript.
+
+                In addition to my programming skills, I specialize in cutting-edge technologies such as machine learning and natural language processing. Leveraging these tools, I am passionate about solving complex problems and extracting insights from data.
+
+                Frameworks like React JS and Tailwind CSS are my go-to choices for building modern and efficient web applications. Alongside, I harness the power of MySQL to design robust databases that ensure seamless data management and retrieval.
+
+                With a keen eye for detail and a commitment to excellence, I thrive in collaborative environments where innovation flourishes. Whether it's crafting intuitive user experiences or developing scalable machine learning models, I am dedicated to delivering solutions that exceed expectations.
+
+                Explore my portfolio to see how my skills and experience can bring your projects to life. Let's collaborate and turn ideas into reality!
+                </p>
             </div>
 
            </div>

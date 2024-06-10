@@ -6,16 +6,16 @@
         "source":"https://stepcone2023.000webhostapp.com/"
     },
     {
-        "title":"Weather Application",
-        "imgsrc":"projectImg/weather.png",
-        "demo":"https://github.com/VamsiHanumantu/weather-APP",
-        "source":"https://github.com/VamsiHanumantu/weather-APP"
+        "title":"Deep Learning-based Spam Classification with BERT",
+        "imgsrc":"projectImg/sms.png",
+        "demo":"https://github.com/VamsiHanumantu/SMS-SPAM",
+        "source":"https://github.com/VamsiHanumantu/SMS-SPAM"
     },
     {
-        "title":"Food Website",
-        "imgsrc":"projectImg/food.png",
-        "demo":"https://github.com/VamsiHanumantu/Food-App",
-        "source":"https://github.com/VamsiHanumantu/Food-App"
+        "title":"FoodRecipe Website using React",
+        "imgsrc":"projectImg/recipe.png",
+        "demo":"https://food-recipe-app-silk.vercel.app/",
+        "source":"https://github.com/VamsiHanumantu/FoodRecipeApp"
     }
     
 ]

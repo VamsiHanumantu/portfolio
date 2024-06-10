@@ -5,7 +5,9 @@ import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
 import mysql from '../assets/mysql.png'
-
+import cpp from '../assets/cpp.png'
+import java from '../assets/java.png'
+import python from '../assets/python.png'
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -41,6 +43,19 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={mysql} alt="" />
                 <p className='my-4'>MySql</p>
             </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 h-20 mx-auto' src={cpp} alt="" />
+                <p className='my-4'>C++</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 h-20 mx-auto' src={java} alt="" />
+                <p className='my-4'>JAVA</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={python} alt="" />
+                <p className='my-4'>Python</p>
+            </div>
+           
         </div>
       </div>  
       
