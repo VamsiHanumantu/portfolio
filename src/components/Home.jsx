@@ -17,9 +17,9 @@ const Home = () => {
          </div>
         </div>
 
-        <div className='hidden md:flex items-center justify-center' >
+        {/* <div className='hidden md:flex items-center justify-center' >
           <img className=' rounded-full h-[250px] w-[250px]' src={hero} alt="" />
-        </div>
+        </div> */}
         
        </div>
     </div>
