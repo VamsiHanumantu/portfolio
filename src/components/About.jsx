@@ -1,37 +1,51 @@
-
-
 const About = () => {
   return (
-    <div name='about' className="w-full bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-           <div className="sm:text-right pb-8 pl-4">
-             <p className="text-4xl inline font-bold border-b-4 border-pink-600">About</p>
-           </div>
-           <div>  </div>
+          <div className="sm:text-right pb-8 pl-4">
+            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+              About
+            </p>
+          </div>
+          <div></div>
         </div>
-           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div>
-                <p className="sm:text-right text-4xl font-bold">Hi, I am Vamsi, nice to meet you. Please take look around</p>
-            </div>
-            <div>
-                <p className=" text-justify">
-                Welcome to my portfolio! I am a versatile software engineer with expertise in a diverse range of programming languages, web technologies, and frameworks. With a strong foundation in C, C++, Java, and Python, I possess the agility to tackle any programming challenge that comes my way. My proficiency extends to web development, where I craft elegant and responsive user interfaces using HTML, CSS, and JavaScript.
 
-                In addition to my programming skills, I specialize in cutting-edge technologies such as machine learning and natural language processing. Leveraging these tools, I am passionate about solving complex problems and extracting insights from data.
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div>
+            <p className="sm:text-right text-3xl font-bold text-white">
+              Hi, I'm Vamsi. Nice to meet you.<br /> Please take a look around.
+            </p>
+          </div>
+          <div className="space-y-4 text-justify">
+            <p>
+              I'm <span className="font-semibold text-white">Vamsi Hanumantu</span>, a results-driven{' '}
+              <span className="font-semibold text-white">Java Full Stack Developer</span> with a solid foundation in building robust and user-friendly web applications. With expertise in{' '}
+              <span className="font-semibold text-white">Java, Spring Boot, React.js, and MySQL</span>, I craft clean, scalable code that brings real-world solutions to life.
+            </p>
 
-                Frameworks like React JS and Tailwind CSS are my go-to choices for building modern and efficient web applications. Alongside, I harness the power of MySQL to design robust databases that ensure seamless data management and retrieval.
+            <p>
+              I have hands-on experience in designing and developing end-to-end systems — from intuitive frontend interfaces using{' '}
+              <span className="font-semibold text-white">React</span> and{' '}
+              <span className="font-semibold text-white">Tailwind CSS</span> to powerful, secure backend APIs using{' '}
+              <span className="font-semibold text-white">Spring Boot</span> and{' '}
+              <span className="font-semibold text-white">JWT authentication</span>. I’ve also worked with{' '}
+              <span className="font-semibold text-white">MongoDB, Oracle</span>, and{' '}
+              <span className="font-semibold text-white">RESTful APIs</span> to build data-intensive applications.
+            </p>
 
-                With a keen eye for detail and a commitment to excellence, I thrive in collaborative environments where innovation flourishes. Whether it's crafting intuitive user experiences or developing scalable machine learning models, I am dedicated to delivering solutions that exceed expectations.
+            <p>
+              My approach combines strong problem-solving skills, attention to detail, and a deep understanding of both frontend and backend technologies. I’m comfortable working in agile environments and collaborating across teams to deliver high-quality software.
+            </p>
 
-                Explore my portfolio to see how my skills and experience can bring your projects to life. Let's collaborate and turn ideas into reality!
-                </p>
-            </div>
-
-           </div>
+            <p>
+              I actively stay updated with modern tech stacks and love building real-time projects that make an impact. Whether it's creating a full-stack platform or optimizing API performance, I bring passion and precision to every line of code.
+            </p>
+          </div>
         </div>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default About
+export default About;
