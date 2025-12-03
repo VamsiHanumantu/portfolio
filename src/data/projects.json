@@ -3,8 +3,8 @@
     {
         "title":"Agile Project Management Tool",
         "imgsrc":"projectImg/sms.png",
-        "demo":"https://github.com/VamsiHanumantu/SMS-SPAM",
-        "source":"https://github.com/VamsiHanumantu/SMS-SPAM"
+        "demo":"",
+        "source":""
     },
     {
         "title":"DriveSwift — Car Rental System",
@@ -15,8 +15,8 @@
     {
         "title":"INTERCOLLEGE FEST WEBSITE",
         "imgsrc":"projectImg/stepcone.png",
-        "demo":"https://stepcone2023.000webhostapp.com/",
-        "source":"https://stepcone2023.000webhostapp.com/"
+        "demo":"",
+        "source":""
     }
     
 ]
