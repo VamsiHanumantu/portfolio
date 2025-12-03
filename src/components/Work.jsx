@@ -18,17 +18,17 @@ const Work = () => {
                     return (
                         <div key={id}
                         style={{backgroundImage:`url(${project.imgsrc})`}}
-                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div  bg-contain bg-center bg-no-repeat">
                            
                             {/* hover effects */}
                             <div className='opacity-0 group-hover:opacity-100' >
-                                <span className='text-2xl text-white font-bold tracking-wider text-center'>
+                                <p className='text-2xl  text-white font-bold text-center'>
                                     {project.title}
-                                </span>
+                                </p>
                                 <div className='pt-8 text-center'>
-                                    <a href={project.demo} target="_blank" >
+                                    {/* <a href={project.demo} target="_blank" >
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Demo</button>
-                                    </a>
+                                    </a> */}
                                     <a href={project.source} target="_blank">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg font-bold'>Code</button>
                                     </a>
