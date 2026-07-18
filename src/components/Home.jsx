@@ -12,17 +12,17 @@ const Home = () => {
           <p className="text-[#EA5455] text-xl">Hi, my name is</p>
           <h1 className="text-4xl sm:text-5xl font-bold text-[#ccd6f6]">Vamsi Hanumantu</h1>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#8892be] mt-2">
-            I’m a Full Stack Developer
+            I'm a Backend Software Engineer
           </h2>
           <p className="text-[#8892be] text-justify py-4 max-w-[700px]">
-            I build robust and responsive web applications using <span className="font-semibold text-white">Java, Spring Boot, React.js</span>, and <span className="font-semibold text-white">MySQL</span>. I love turning ideas into reality through clean, efficient, and scalable code.
+            Building enterprise Java applications with <span className="font-semibold text-white">Spring Boot, REST APIs</span>, and <span className="font-semibold text-white">TypeScript</span>. Experienced in backend development, API integration, legacy modernization, and Agile delivery.
           </p>
           <div className="flex justify-center md:justify-start">
             <Link to="work" smooth={true} duration={500}>
-              <button className="text-white border-2 group px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+              <button className="group flex items-center gap-2 px-6 py-3 my-2 rounded-lg bg-gradient-to-r from-pink-600 to-rose-600 text-white font-semibold hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200">
                 View Work
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3" />
+                <span className="group-hover:translate-x-1 duration-300">
+                  <HiArrowNarrowRight />
                 </span>
               </button>
             </Link>

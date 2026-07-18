@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -10,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]/90 backdrop-blur-sm border-b border-[#1e3a5f] text-gray-300 z-50">
       {/* Logo */}
       <div>
         <h1 className="text-[#EA5455] text-3xl font-bold">Portfolio</h1>
@@ -69,51 +67,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social Icons */}
-      <div className="hidden lg:flex flex-col fixed top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="w-full flex justify-between items-center text-gray-300"
-              href="https://www.linkedin.com/in/vamsihanumantu/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <a
-              className="w-full flex justify-between items-center text-gray-300"
-              href="https://github.com/VamsiHanumantu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
-              className="w-full flex justify-between items-center text-gray-300"
-              href="mailto:vamsihanumantu@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Mail <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="w-full flex justify-between items-center text-gray-300"
-              href="/Vamsi_Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+
     </div>
   );
 };

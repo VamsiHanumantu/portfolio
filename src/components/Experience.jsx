@@ -3,19 +3,26 @@ import React from 'react';
 const experiences = [
   {
     company: 'Cognizant Technology Solutions',
-    title: 'Programmer Analyst Trainee',
+    title: 'Programmer Analyst',
     date: 'Oct 2024 – Present',
     location: 'Chennai, India',
-    description:
-      `Currently working on a client-facing application using JSP, Servlets, and Oracle. I build scalable backend features, collaborate in Agile sprints, and ensure smooth deployments. Previously completed hands-on training in Spring Boot, React, and MySQL, building secure, RESTful web apps.`,
+    bullets: [
+      'Modernized legacy insurance claim-processing workflows by replacing JSP-based UIs with React, TypeScript, Redux Toolkit, and Tailwind CSS — integrated with a Java Servlet backend via RESTful APIs, resulting in an estimated 2× improvement in claim creation speed.',
+      'Designed, developed, and integrated RESTful APIs within a multi-tier Java 8 Servlet enterprise application backed by Oracle databases.',
+      'Resolved multiple production issues and designed inline validation for claim workflows, improving application stability, data accuracy, and UX.',
+      'Built performance-focused POCs that improved operational efficiency by 15–25%, earning a 5-Star Year-End Performance Rating and formal recognition in June 2026.',
+    ],
   },
   {
-    company: 'Wisenet Automission Pvt. Ltd',
+    company: 'Wisenet Automation Pvt. Ltd.',
     title: 'Web Development Intern',
     date: 'Nov 2023 – Feb 2024',
     location: 'Visakhapatnam, India',
-    description:
-      `Built an interactive GPS dashboard with HTML, CSS, JS, and Bootstrap. Added real-time device tracking and historical distance features, which improved user visibility and post-release satisfaction. Worked closely with the core team to gather requirements and deliver features.`,
+    bullets: [
+      'Developed and enhanced a GPS tracking dashboard using HTML, CSS, JavaScript, and Bootstrap, improving real-time device visibility and operational efficiency.',
+      'Designed responsive, mobile-first user interfaces ensuring consistent cross-device performance.',
+      'Collaborated with the development team to implement production-ready features based on business requirements and user feedback.',
+    ],
   },
 ];
 
@@ -38,8 +45,12 @@ const Experience = () => {
               <div className="bg-[#112240] p-6 rounded-lg shadow-md hover:shadow-pink-500 transition-shadow duration-300">
                 <h3 className="text-2xl font-semibold text-[#ccd6f6]">{exp.company}</h3>
                 <p className="text-pink-500 text-sm">{exp.title} · {exp.date}</p>
-                <p className="text-gray-400 text-sm mb-2">{exp.location}</p>
-                <p className="text-[#8892b0] leading-relaxed">{exp.description}</p>
+                <p className="text-gray-400 text-sm mb-3">{exp.location}</p>
+                <ul className="list-disc list-inside space-y-2">
+                  {exp.bullets.map((bullet, i) => (
+                    <li key={i} className="text-[#8892b0] leading-relaxed">{bullet}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}

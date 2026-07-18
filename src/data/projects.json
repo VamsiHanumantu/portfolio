@@ -1,22 +1,26 @@
 [
-    
     {
-        "title":"Agile Project Management Tool",
-        "imgsrc":"projectImg/sms.png",
-        "demo":"",
-        "source":""
+        "title": "AutoAssess – AI Vehicle Damage Assessment",
+        "description": "AI-powered vehicle damage assessment platform with Spring Boot backend, YOLOv11 + ResNet50 inference, and a React frontend visualizing damage detection and repair cost estimates.",
+        "tech": ["Spring Boot", "YOLOv11", "ResNet50", "React", "Python"],
+        "demo": "",
+        "source": "",
+        "color": "from-violet-600 to-indigo-600"
     },
     {
-        "title":"DriveSwift — Car Rental System",
-        "imgsrc":"projectImg/car_rental.png",
-        "demo":"https://food-recipe-app-silk.vercel.app/",
-        "source":"https://github.com/VamsiHanumantu/DriveSwifft"
+        "title": "Agile Project Management Tool",
+        "description": "Full-stack Agile platform with sprint planning, backlog management, and role-based access built using Spring Boot, Spring Security, Spring Data JPA, and React.",
+        "tech": ["Spring Boot", "Spring Security", "Spring Data JPA", "React"],
+        "demo": "",
+        "source": "",
+        "color": "from-pink-600 to-rose-600"
     },
     {
-        "title":"INTERCOLLEGE FEST WEBSITE",
-        "imgsrc":"projectImg/stepcone.png",
-        "demo":"",
-        "source":""
+        "title": "DriveSwift — Car Rental System",
+        "description": "Car rental system with booking, fleet management, and user authentication built as a full-stack web application.",
+        "tech": ["Java", "Spring Boot", "React", "MySQL"],
+        "demo": "",
+        "source": "https://github.com/VamsiHanumantu/DriveSwifft",
+        "color": "from-cyan-500 to-blue-600"
     }
-    
 ]
