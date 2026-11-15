@@ -1,19 +1,19 @@
 [
     {
+        "title": "Agile Project Management Tool",
+        "description": "Full-stack Agile platform used by 5–6 teams. Features sprint planning, backlog management, JWT-based RBAC, and paginated REST APIs — built with Spring Boot, Spring Security, Spring Data JPA, and React.",
+        "tech": ["Spring Boot", "Spring Security", "Spring Data JPA", "React", "MySQL", "JWT"],
+        "demo": "",
+        "source": "",
+        "color": "from-pink-600 to-rose-600"
+    },
+    {
         "title": "AutoAssess – AI Vehicle Damage Assessment",
-        "description": "AI-powered vehicle damage assessment platform with Spring Boot backend, YOLOv11 + ResNet50 inference, and a React frontend visualizing damage detection and repair cost estimates.",
+        "description": "AI-powered vehicle damage assessment platform using YOLOv11 for detection and ResNet50 for classification on the CarDD dataset (~4,000 images). Spring Boot backend processes inference results and generates automated repair cost estimates; React dashboard visualizes damages with bounding boxes.",
         "tech": ["Spring Boot", "YOLOv11", "ResNet50", "React", "Python"],
         "demo": "",
         "source": "",
         "color": "from-violet-600 to-indigo-600"
-    },
-    {
-        "title": "Agile Project Management Tool",
-        "description": "Full-stack Agile platform with sprint planning, backlog management, and role-based access built using Spring Boot, Spring Security, Spring Data JPA, and React.",
-        "tech": ["Spring Boot", "Spring Security", "Spring Data JPA", "React"],
-        "demo": "",
-        "source": "",
-        "color": "from-pink-600 to-rose-600"
     },
     {
         "title": "DriveSwift — Car Rental System",

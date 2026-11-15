@@ -22,8 +22,8 @@ const Home = () => {
               strings={[
                 'Software Engineer',
                 'Full Stack Developer',
-                'Problem Solver',
                 'Java Developer',
+                'Problem Solver',
                 'React Developer',
               ]}
               typeSpeed={60}
@@ -34,9 +34,12 @@ const Home = () => {
           </h2>
 
           <p className="text-[#8892be] py-4 max-w-[560px] leading-relaxed text-center md:text-left">
-            Backend Software Engineer with <span className="text-white font-semibold">1y 9m</span> of experience at{' '}
-            <span className="text-white font-semibold">Cognizant</span> — building enterprise Java applications with{' '}
-            <span className="text-white font-semibold">Spring Boot, REST APIs, React & TypeScript</span>.
+            Backend Software Engineer at{' '}
+            <span className="text-white font-semibold">Cognizant</span> — building{' '}
+            <span className="text-white font-semibold">Spring Boot microservices</span> with{' '}
+            <span className="text-white font-semibold">Spring Cloud, Resilience4j, JWT/OAuth2</span>, and{' '}
+            <span className="text-white font-semibold">React & TypeScript</span> frontends.{' '}
+            <span className="text-white font-semibold">AWS Certified Developer – Associate</span>.
           </p>
 
           {/* Buttons */}

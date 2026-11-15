@@ -35,6 +35,21 @@
         "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
     },
     {
+        "name": "Spring Cloud OpenFeign",
+        "category": "Frameworks",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
+    },
+    {
+        "name": "Resilience4j",
+        "category": "Frameworks",
+        "logo": ""
+    },
+    {
+        "name": "MapStruct",
+        "category": "Frameworks",
+        "logo": ""
+    },
+    {
         "name": "React.js",
         "category": "Frameworks",
         "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
@@ -70,6 +85,11 @@
         "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
     },
     {
+        "name": "GitLab CI/CD",
+        "category": "Tools",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg"
+    },
+    {
         "name": "Maven",
         "category": "Tools",
         "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg"
@@ -80,9 +100,19 @@
         "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
     },
     {
+        "name": "AWS",
+        "category": "Tools",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+    },
+    {
         "name": "Postman",
         "category": "Tools",
         "logo": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+    },
+    {
+        "name": "SonarQube",
+        "category": "Tools",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sonarqube/sonarqube-original.svg"
     },
     {
         "name": "REST APIs",
@@ -95,7 +125,17 @@
         "logo": ""
     },
     {
-        "name": "JWT",
+        "name": "JWT / OAuth2",
+        "category": "Concepts",
+        "logo": ""
+    },
+    {
+        "name": "Kafka",
+        "category": "Concepts",
+        "logo": ""
+    },
+    {
+        "name": "Redis",
         "category": "Concepts",
         "logo": ""
     },
@@ -115,4 +155,3 @@
         "logo": ""
     }
 ]
-
